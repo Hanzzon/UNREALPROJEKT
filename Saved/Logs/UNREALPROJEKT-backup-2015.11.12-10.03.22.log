@@ -1,0 +1,34 @@
+﻿[2015.11.12-08.59.37:115][  0]Log file open, 11/12/15 09:59:37
+[2015.11.12-08.59.37:115][  0]LogInit:Display: Running engine for game: UNREALPROJEKT
+[2015.11.12-08.59.37:115][  0]LogInit:Display: RandInit(-1929207101) SRandInit(-1929207099).
+[2015.11.12-08.59.37:115][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.12-08.59.37:115][  0]LogStats: Stats thread started at 0.257978
+[2015.11.12-08.59.37:115][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-UNREALPROJEKT.dll
+[2015.11.12-08.59.38:710][  0]Running D:/Program (x86)/Epic Games/4.9/Engine/Binaries/DotNET/UnrealBuildTool.exe UNREALPROJEKT Development Win64 -project="C:/Users/Robin/Desktop/HÖGSKOLAN/LÄSÅR 2/C++ OOAD/3. Unreal Engine/Uppgifter/Projekt/UNREALPROJEKT/UNREALPROJEKT.uproject" -rocket -editorrecompile -progress -noubtmakefiles
+[2015.11.12-08.59.46:003][  0]@progress push 5%
+[2015.11.12-08.59.47:215][  0]@progress pop
+[2015.11.12-08.59.50:544][  0]Performing 6 actions (4 in parallel)
+[2015.11.12-08.59.50:646][  0]PCH.UNREALPROJEKT.h.cpp
+[2015.11.12-08.59.50:646][  0]C:\Users\Robin\Desktop\H?GSKOLAN\L?S?R 2\C++ OOAD\3. Unreal Engine\Uppgifter\Projekt\UNREALPROJEKT\Intermediate\Build\Win64\UE4Editor\Development\UNREALPROJEKT\PCH.UNREALPROJEKT.h.cpp(1) : fatal error C1083: Cannot open include file: 'C:\Users\Robin\Desktop\H?-GSKOLAN\L?"S?.R 2\C++ OOAD\3. Unreal Engine\Uppgifter\Projekt\UNREALPROJEKT\Source\UNREALPROJEKT\UNREALPROJEKT.h': No such file or directory
+[2015.11.12-08.59.50:849][  0]-------- End Detailed Actions Stats -----------------------------------------------------------
+[2015.11.12-08.59.50:849][  0]ERROR: UBT ERROR: Failed to produce item: C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\C++ OOAD\3. Unreal Engine\Uppgifter\Projekt\UNREALPROJEKT\Binaries\Win64\UE4Editor-UNREALPROJEKT.dll
+[2015.11.12-08.59.50:849][  0]Total build time: 11,97 seconds
+[2015.11.12-08.59.51:539][  0]LogInit:Warning: Still incompatible or missing module: UE4Editor-UNREALPROJEKT.dll
+[2015.11.12-09.00.17:495][  0]LogExit: Preparing to exit.
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.12-09.00.17:496][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.12-09.00.17:497][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.12-09.00.17:497][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.12-09.00.17:497][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.12-09.00.17:497][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.12-09.00.17:497][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.12-09.00.17:497][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.12-09.00.17:497][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.12-09.00.17:501][  0]LogExit: Exiting.
+[2015.11.12-09.00.17:502][  0]Log file closed, 11/12/15 10:00:17

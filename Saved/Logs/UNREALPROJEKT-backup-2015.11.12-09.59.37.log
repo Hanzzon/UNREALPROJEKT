@@ -1,0 +1,23 @@
+﻿[2015.11.12-08.57.57:913][  0]Log file open, 11/12/15 09:57:57
+[2015.11.12-08.57.57:913][  0]LogInit:Display: Running engine for game: UNREALPROJEKT
+[2015.11.12-08.57.57:913][  0]LogInit:Display: RandInit(2105360626) SRandInit(2105360628).
+[2015.11.12-08.57.57:913][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.12-08.57.57:913][  0]LogStats: Stats thread started at 0.227323
+[2015.11.12-08.57.57:913][  0]LogInit:Warning: Incompatible or missing module: UE4Editor-UNREALPROJEKT.dll
+[2015.11.12-08.58.42:839][  0]LogExit: Preparing to exit.
+[2015.11.12-08.58.42:841][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.12-08.58.42:841][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.12-08.58.42:841][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.12-08.58.42:841][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.12-08.58.42:841][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.12-08.58.42:841][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.12-08.58.42:842][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.12-08.58.42:843][  0]LogExit: Exiting.
+[2015.11.12-08.58.42:845][  0]Log file closed, 11/12/15 09:58:42
