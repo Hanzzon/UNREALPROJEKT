@@ -23,7 +23,7 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 600.f;
+	GetCharacterMovement()->JumpZVelocity = 900.f;
 	GetCharacterMovement()->AirControl = 0.2f;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
@@ -39,6 +39,9 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+
+	AutoPossessPlayer = EAutoReceiveInput::Player0;
 }
 
 //////////////////////////////////////////////////////////////////////////
