@@ -2,168 +2,126 @@
 
 #include "UNREALPROJEKT.h"
 #include "UNREALPROJEKTCharacter.h"
-#include "PaperFlipbookComponent.h"
-#include "Components/TextRenderComponent.h"
 
-
-
-DEFINE_LOG_CATEGORY_STATIC(SideScrollerCharacter, Log, All);
 //////////////////////////////////////////////////////////////////////////
 // AUNREALPROJEKTCharacter
 
 AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 {
-	// Setup the assets
-	struct FConstructorStatics
-	{
-		ConstructorHelpers::FObjectFinderOptional<UPaperFlipbook> RunningAnimationAsset;
-		ConstructorHelpers::FObjectFinderOptional<UPaperFlipbook> IdleAnimationAsset;
-		FConstructorStatics()
-			: RunningAnimationAsset(TEXT("/Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation"))
-			, IdleAnimationAsset(TEXT("/Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation"))
-		{
-		}
-	};
-	static FConstructorStatics ConstructorStatics;
+	// Set size for collision capsule
+	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
-	RunningAnimation = ConstructorStatics.RunningAnimationAsset.Get();
-	IdleAnimation = ConstructorStatics.IdleAnimationAsset.Get();
-	GetSprite()->SetFlipbook(IdleAnimation);
+	// set our turn rates for input
+	BaseTurnRate = 45.f;
+	BaseLookUpRate = 45.f;
 
-	// Use only Yaw from the controller and ignore the rest of the rotation.
+	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = true;
+	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
 
-	// Set the size of our collision capsule.
-	GetCapsuleComponent()->SetCapsuleHalfHeight(96.0f);
-	GetCapsuleComponent()->SetCapsuleRadius(40.0f);
+	// Configure character movement
+	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
+	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
+	GetCharacterMovement()->JumpZVelocity = 600.f;
+	GetCharacterMovement()->AirControl = 0.2f;
 
-	// Create a camera boom attached to the root (capsule)
+	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->AttachTo(RootComponent);
-	CameraBoom->TargetArmLength = 500.0f;
-	CameraBoom->SocketOffset = FVector(0.0f, 0.0f, 75.0f);
-	CameraBoom->bAbsoluteRotation = true;
-	CameraBoom->bDoCollisionTest = false;
-	CameraBoom->RelativeRotation = FRotator(0.0f, -90.0f, 0.0f);
-	
+	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
+	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
-	// Create an orthographic camera (no perspective) and attach it to the boom
-	SideViewCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("SideViewCamera"));
-	SideViewCameraComponent->ProjectionMode = ECameraProjectionMode::Orthographic;
-	SideViewCameraComponent->OrthoWidth = 2048.0f;
-	SideViewCameraComponent->AttachTo(CameraBoom, USpringArmComponent::SocketName);
+	// Create a follow camera
+	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+	FollowCamera->AttachTo(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
+	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-	// Prevent all automatic rotation behavior on the camera, character, and camera component
-	CameraBoom->bAbsoluteRotation = true;
-	SideViewCameraComponent->bUsePawnControlRotation = false;
-	SideViewCameraComponent->bAutoActivate = true;
-	GetCharacterMovement()->bOrientRotationToMovement = false;
-
-	// Configure character movement
-	GetCharacterMovement()->GravityScale = 2.0f;
-	GetCharacterMovement()->AirControl = 0.80f;
-	GetCharacterMovement()->JumpZVelocity = 1000.f;
-	GetCharacterMovement()->GroundFriction = 3.0f;
-	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
-	GetCharacterMovement()->MaxFlySpeed = 600.0f;
-
-	// Lock character motion onto the XZ plane, so the character can't move in or out of the screen
-	GetCharacterMovement()->bConstrainToPlane = true;
-	GetCharacterMovement()->SetPlaneConstraintNormal(FVector(0.0f, -1.0f, 0.0f));
-
-	// Behave like a traditional 2D platformer character, with a flat bottom instead of a curved capsule bottom
-	// Note: This can cause a little floating when going up inclines; you can choose the tradeoff between better
-	// behavior on the edge of a ledge versus inclines by setting this to true or false
-	GetCharacterMovement()->bUseFlatBaseForFloorChecks = true;
-
-// 	TextComponent = CreateDefaultSubobject<UTextRenderComponent>(TEXT("IncarGear"));
-// 	TextComponent->SetRelativeScale3D(FVector(3.0f, 3.0f, 3.0f));
-// 	TextComponent->SetRelativeLocation(FVector(35.0f, 5.0f, 20.0f));
-// 	TextComponent->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
-// 	TextComponent->AttachTo(RootComponent);
-
-	// Enable replication on the Sprite component so animations show up when networked
-	GetSprite()->SetIsReplicated(true);
-	bReplicates = true;
+	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
+	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
-
-//////////////////////////////////////////////////////////////////////////
-// Animation
-
-void AUNREALPROJEKTCharacter::UpdateAnimation()
-{
-	const FVector PlayerVelocity = GetVelocity();
-	const float PlayerSpeed = PlayerVelocity.Size();
-
-	// Are we moving or standing still?
-	UPaperFlipbook* DesiredAnimation = (PlayerSpeed > 0.0f) ? RunningAnimation : IdleAnimation;
-	if( GetSprite()->GetFlipbook() != DesiredAnimation 	)
-	{
-		GetSprite()->SetFlipbook(DesiredAnimation);
-	}
-}
-
-void AUNREALPROJEKTCharacter::Tick(float DeltaSeconds)
-{
-	Super::Tick(DeltaSeconds);
-	
-	UpdateCharacter();	
-}
-
 
 //////////////////////////////////////////////////////////////////////////
 // Input
 
 void AUNREALPROJEKTCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
-	// Note: the 'Jump' action and the 'MoveRight' axis are bound to actual keys/buttons/sticks in DefaultInput.ini (editable from Project Settings..Input)
+	// Set up gameplay key bindings
+	check(InputComponent);
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	InputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	InputComponent->BindAxis("MoveForward", this, &AUNREALPROJEKTCharacter::MoveForward);
 	InputComponent->BindAxis("MoveRight", this, &AUNREALPROJEKTCharacter::MoveRight);
 
+	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
+	// "turn" handles devices that provide an absolute delta, such as a mouse.
+	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
+	InputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	InputComponent->BindAxis("TurnRate", this, &AUNREALPROJEKTCharacter::TurnAtRate);
+	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	InputComponent->BindAxis("LookUpRate", this, &AUNREALPROJEKTCharacter::LookUpAtRate);
+
+	// handle touch devices
 	InputComponent->BindTouch(IE_Pressed, this, &AUNREALPROJEKTCharacter::TouchStarted);
 	InputComponent->BindTouch(IE_Released, this, &AUNREALPROJEKTCharacter::TouchStopped);
 }
 
+
+void AUNREALPROJEKTCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
+{
+	// jump, but only on the first touch
+	if (FingerIndex == ETouchIndex::Touch1)
+	{
+		Jump();
+	}
+}
+
+void AUNREALPROJEKTCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
+{
+	if (FingerIndex == ETouchIndex::Touch1)
+	{
+		StopJumping();
+	}
+}
+
+void AUNREALPROJEKTCharacter::TurnAtRate(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AUNREALPROJEKTCharacter::LookUpAtRate(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AUNREALPROJEKTCharacter::MoveForward(float Value)
+{
+	if ((Controller != NULL) && (Value != 0.0f))
+	{
+		// find out which way is forward
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get forward vector
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Value);
+	}
+}
+
 void AUNREALPROJEKTCharacter::MoveRight(float Value)
 {
-	/*UpdateChar();*/
-
-	// Apply the input to the character motion
-	AddMovementInput(FVector(1.0f, 0.0f, 0.0f), Value);
-}
-
-void AUNREALPROJEKTCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	// jump on any touch
-	Jump();
-}
-
-void AUNREALPROJEKTCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	StopJumping();
-}
-
-void AUNREALPROJEKTCharacter::UpdateCharacter()
-{
-	// Update animation to match the motion
-	UpdateAnimation();
-
-	// Now setup the rotation of the controller based on the direction we are travelling
-	const FVector PlayerVelocity = GetVelocity();	
-	float TravelDirection = PlayerVelocity.X;
-	// Set the rotation so that the character faces his direction of travel.
-	if (Controller != nullptr)
+	if ( (Controller != NULL) && (Value != 0.0f) )
 	{
-		if (TravelDirection < 0.0f)
-		{
-			Controller->SetControlRotation(FRotator(0.0, 180.0f, 0.0f));
-		}
-		else if (TravelDirection > 0.0f)
-		{
-			Controller->SetControlRotation(FRotator(0.0f, 0.0f, 0.0f));
-		}
+		// find out which way is right
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+	
+		// get right vector 
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		// add movement in that direction
+		AddMovementInput(Direction, Value);
 	}
 }
