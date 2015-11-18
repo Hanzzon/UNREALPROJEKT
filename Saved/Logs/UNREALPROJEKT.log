@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿[2015.11.18-13.12.34:157][  0]Log file open, 11/18/15 14:12:34
 [2015.11.18-13.12.34:157][  0]LogInit:Display: Running engine for game: UNREALPROJEKT
 [2015.11.18-13.12.34:157][  0]LogInit:Display: RandInit(-1661724041) SRandInit(-1661724041).
@@ -90,17 +91,111 @@
 [2015.11.18-13.12.38:207][  0]LogLinker:Warning: Can't find file '/Game/2dSideScroller/Sprites/RunningAnimation'
 [2015.11.18-13.12.38:207][  0]LogUObjectGlobals:Warning: Failed to find object 'PaperFlipbook /Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation'
 [2015.11.18-13.12.38:207][  0]Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation
+=======
+﻿[2015.11.18-13.08.29:242][  0]Log file open, 11/18/15 14:08:29
+[2015.11.18-13.08.29:242][  0]LogInit:Display: Running engine for game: UNREALPROJEKT
+[2015.11.18-13.08.29:242][  0]LogInit:Display: RandInit(2058892196) SRandInit(2058892197).
+[2015.11.18-13.08.29:242][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.18-13.08.29:242][  0]LogStats: Stats thread started at 0.106098
+[2015.11.18-13.08.29:242][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.18-13.08.29:242][  0]LogInit: API Version: 2672455
+[2015.11.18-13.08.29:242][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.18-13.08.29:242][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.18-13.08.29:242][  0]LogInit: Build Configuration: Development
+[2015.11.18-13.08.29:242][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.18-13.08.29:242][  0]LogInit: Command line:  
+[2015.11.18-13.08.29:242][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.18-13.08.29:242][  0]LogInit: Rocket: 1
+[2015.11.18-13.08.29:258][  0]LogInit: Using libcurl 7.41.0
+[2015.11.18-13.08.29:258][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.18-13.08.29:258][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.18-13.08.29:258][  0]LogInit:  - other features:
+[2015.11.18-13.08.29:258][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.18-13.08.29:258][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.18-13.08.29:258][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.18-13.08.29:258][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.18-13.08.29:258][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.18-13.08.29:258][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.18-13.08.29:258][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.18-13.08.29:258][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.18-13.08.29:258][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.18-13.08.29:258][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.18-13.08.29:258][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.18-13.08.29:273][  0]LogInit: Object subsystem initialized
+[2015.11.18-13.08.29:273][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.18-13.08.29:273][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.18-13.08.29:293][  0]LogInit: Computer: DESKTOP-CJLLLQI
+[2015.11.18-13.08.29:293][  0]LogInit: User: RasmusHansson
+[2015.11.18-13.08.29:293][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.18-13.08.29:293][  0]LogInit: High frequency timer resolution =2.343750 MHz
+[2015.11.18-13.08.29:293][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.18-13.08.29:293][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.18-13.08.29:293][  0]LogMemory: Process Physical Memory: 54.33 MB used, 54.33 MB peak
+[2015.11.18-13.08.29:293][  0]LogMemory: Process Virtual Memory: 57.55 MB used, 57.55 MB peak
+[2015.11.18-13.08.29:293][  0]LogMemory: Physical Memory: 2905.45 MB used, 8100.26 MB total
+[2015.11.18-13.08.29:293][  0]LogMemory: Virtual Memory: 368.36 MB used, 134217728.00 MB total
+[2015.11.18-13.08.29:326][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.18-13.08.30:148][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) Iris(TM) Graphics 5100 (Feature Level 11_0)
+[2015.11.18-13.08.30:148][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4050MB of shared system memory, 1 output[s]
+[2015.11.18-13.08.30:149][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.18-13.08.30:149][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4050MB of shared system memory, 0 output[s]
+[2015.11.18-13.08.30:149][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.18-13.08.30:154][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.18-13.08.30:154][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.18-13.08.30:159][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.18-13.08.30:164][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Intermediate/Shaders/WorkingDirectory/4136/).
+[2015.11.18-13.08.30:164][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Intermediate/Shaders/tmp/AEEAD2424EDE2A91F8F440BD70974CB3/'.
+[2015.11.18-13.08.30:164][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.18-13.08.31:321][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.18-13.08.31:327][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.18-13.08.31:334][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.18-13.08.31:340][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.18-13.08.31:346][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.18-13.08.31:350][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.18-13.08.31:354][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.18-13.08.31:357][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.18-13.08.31:362][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.18-13.08.31:366][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.18-13.08.31:370][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.18-13.08.31:374][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.18-13.08.31:375][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.18-13.08.31:392][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.18-13.08.31:395][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.18-13.08.31:399][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.18-13.08.31:409][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.18-13.08.31:409][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.18-13.08.31:531][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.18-13.08.31:576][  0]LogDerivedDataCache: Loaded boot cache 0.04s 42MB C:/Users/Rasmus Hansson/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.18-13.08.31:576][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rasmus Hansson/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.18-13.08.31:576][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.18-13.08.31:576][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.18-13.08.31:576][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.18-13.08.31:576][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.18-13.08.31:731][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.18-13.08.31:743][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rasmus Hansson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.18-13.08.31:951][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.18-13.08.31:954][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.18-13.08.32:088][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.18-13.08.32:088][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.18-13.08.32:373][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.18-13.08.33:312][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.18-13.08.33:400][  0]LogLinker:Warning: Can't find file '/Game/2dSideScroller/Sprites/RunningAnimation'
+[2015.11.18-13.08.33:400][  0]LogLinker:Warning: Can't find file '/Game/2dSideScroller/Sprites/RunningAnimation'
+[2015.11.18-13.08.33:400][  0]LogUObjectGlobals:Warning: Failed to find object 'PaperFlipbook /Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation'
+[2015.11.18-13.08.33:400][  0]Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation
+>>>>>>> parent of 175d65a... Commit to revert
 
-[2015.11.18-13.12.38:208][  0]LogLinker:Warning: Can't find file '/Game/2dSideScroller/Sprites/IdleAnimation'
-[2015.11.18-13.12.38:208][  0]LogLinker:Warning: Can't find file '/Game/2dSideScroller/Sprites/IdleAnimation'
-[2015.11.18-13.12.38:208][  0]LogUObjectGlobals:Warning: Failed to find object 'PaperFlipbook /Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation'
-[2015.11.18-13.12.38:208][  0]Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation
+[2015.11.18-13.08.33:400][  0]LogLinker:Warning: Can't find file '/Game/2dSideScroller/Sprites/IdleAnimation'
+[2015.11.18-13.08.33:401][  0]LogLinker:Warning: Can't find file '/Game/2dSideScroller/Sprites/IdleAnimation'
+[2015.11.18-13.08.33:401][  0]LogUObjectGlobals:Warning: Failed to find object 'PaperFlipbook /Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation'
+[2015.11.18-13.08.33:401][  0]Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation
 
-[2015.11.18-13.12.38:208][  0]LogUObjectBase:Warning: -------------- Default Property warnings and errors:
-[2015.11.18-13.12.38:208][  0]LogUObjectBase:Warning: Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation
+[2015.11.18-13.08.33:401][  0]LogUObjectBase:Warning: -------------- Default Property warnings and errors:
+[2015.11.18-13.08.33:401][  0]LogUObjectBase:Warning: Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/RunningAnimation.RunningAnimation
 
-[2015.11.18-13.12.38:208][  0]LogUObjectBase:Warning: Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation
+[2015.11.18-13.08.33:401][  0]LogUObjectBase:Warning: Error: CDO Constructor (UNREALPROJEKTCharacter): Failed to find /Game/2dSideScroller/Sprites/IdleAnimation.IdleAnimation
 
+<<<<<<< HEAD
 [2015.11.18-13.12.38:225][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
 [2015.11.18-13.13.06:902][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
 [2015.11.18-13.13.06:903][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
@@ -556,3 +651,626 @@
 [2015.11.13-14.29.02:432][  0]LogExit: Exiting.
 [2015.11.13-14.29.02:448][  0]Log file closed, 11/13/15 15:29:02
 >>>>>>> parent of 158ef9c... commit testttttt
+=======
+[2015.11.18-13.08.33:413][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.18-13.08.41:892][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.18-13.08.41:892][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.18-13.08.41:947][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.11.18-13.08.42:170][  0]SourceControl: Info Source control is disabled
+[2015.11.18-13.08.42:239][  0]SourceControl: Info Source control is disabled
+[2015.11.18-13.08.42:256][  0]SourceControl: Info Source control is disabled
+[2015.11.18-13.08.42:275][  0]SourceControl: Info Source control is disabled
+[2015.11.18-13.08.42:449][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.42:544][  0]LogObj: 28379 objects as part of root set at end of initial load.
+[2015.11.18-13.08.42:544][  0]LogUObjectAllocator: 6051608 out of 0 bytes used by permanent object pool.
+[2015.11.18-13.08.42:628][  0]LogEngine: Initializing Engine...
+[2015.11.18-13.08.42:631][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.18-13.08.42:632][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.18-13.08.42:767][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.18-13.08.42:773][  0]LogInit: XAudio2 using 'Högtalare (Cirrus Logic CS4208 (AB 93))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.11.18-13.08.42:913][  0]LogInit: FAudioDevice initialized.
+[2015.11.18-13.08.42:945][  0]LogDerivedDataCache: Saved boot cache 0.03s 42MB C:/Users/Rasmus Hansson/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.18-13.08.42:947][  0]LogInit: Texture streaming: Enabled
+[2015.11.18-13.08.42:954][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.18-13.08.42:954][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.18-13.08.42:954][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f3fac7c34cedc6fdf4cc309633b37fd2|1d681c6b8a774a20b067816cc7f8e38f|ee89323f-a2e7-4e8e-a14f-b8f2152f3989
+[2015.11.18-13.08.42:954][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.18-13.08.42:997][  0]LogInit: Transaction tracking system initialized
+[2015.11.18-13.08.43:047][  0]BlueprintLog: New page: Editor Load
+[2015.11.18-13.08.43:163][  0]LocalizationService: Info Localization service is disabled
+[2015.11.18-13.08.43:578][  0]LogConsoleResponse:Display: 
+[2015.11.18-13.08.43:743][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.18-13.08.43:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/' took 0.02s
+[2015.11.18-13.08.43:845][  0]SourceControl: Info Source control is disabled
+[2015.11.18-13.08.43:855][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2015.11.18-13.08.43:868][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.11.18-13.08.43:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.11.18-13.08.43:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.11.18-13.08.43:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.11.18-13.08.43:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.11.18-13.08.43:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.11.18-13.08.43:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.11.18-13.08.43:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.11.18-13.08.43:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.11.18-13.08.43:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.11.18-13.08.43:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.11.18-13.08.43:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.11.18-13.08.43:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.11.18-13.08.43:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.11.18-13.08.43:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.11.18-13.08.43:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.11.18-13.08.43:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.11.18-13.08.43:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.11.18-13.08.43:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Fire01.uasset"
+[2015.11.18-13.08.43:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.11.18-13.08.43:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.11.18-13.08.43:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.11.18-13.08.43:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Light01.uasset"
+[2015.11.18-13.08.43:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.11.18-13.08.43:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Light02.uasset"
+[2015.11.18-13.08.43:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.11.18-13.08.43:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.11.18-13.08.43:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.11.18-13.08.43:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.11.18-13.08.43:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.11.18-13.08.43:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.11.18-13.08.44:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.11.18-13.08.44:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.11.18-13.08.44:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.11.18-13.08.44:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Steam01.uasset"
+[2015.11.18-13.08.44:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.11.18-13.08.44:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.11.18-13.08.44:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.11.18-13.08.44:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.11.18-13.08.44:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.11.18-13.08.44:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.11.18-13.08.44:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.11.18-13.08.44:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.11.18-13.08.44:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.11.18-13.08.44:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.11.18-13.08.44:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.11.18-13.08.44:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.11.18-13.08.44:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.11.18-13.08.44:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.11.18-13.08.44:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.11.18-13.08.44:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.11.18-13.08.44:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.11.18-13.08.44:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.11.18-13.08.44:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.11.18-13.08.44:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.11.18-13.08.44:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Maps/StarterMap.umap"
+[2015.11.18-13.08.44:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.11.18-13.08.44:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.11.18-13.08.44:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.11.18-13.08.44:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.11.18-13.08.44:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.11.18-13.08.44:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.11.18-13.08.44:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.11.18-13.08.44:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.11.18-13.08.44:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.11.18-13.08.44:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.11.18-13.08.44:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.11.18-13.08.44:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.11.18-13.08.44:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.11.18-13.08.44:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.11.18-13.08.44:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.11.18-13.08.44:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.11.18-13.08.44:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.11.18-13.08.44:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.11.18-13.08.44:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.11.18-13.08.44:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.11.18-13.08.44:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.11.18-13.08.44:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.11.18-13.08.44:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.11.18-13.08.44:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.11.18-13.08.44:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.11.18-13.08.44:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.11.18-13.08.44:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.11.18-13.08.44:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.11.18-13.08.44:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.11.18-13.08.44:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.11.18-13.08.44:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.11.18-13.08.44:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.11.18-13.08.44:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.11.18-13.08.44:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.11.18-13.08.44:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.11.18-13.08.44:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.11.18-13.08.44:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.11.18-13.08.44:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.11.18-13.08.44:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.11.18-13.08.44:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.11.18-13.08.44:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.11.18-13.08.44:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.11.18-13.08.44:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.11.18-13.08.44:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.11.18-13.08.44:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.11.18-13.08.44:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.11.18-13.08.44:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.11.18-13.08.44:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.11.18-13.08.44:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.11.18-13.08.44:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.11.18-13.08.44:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.11.18-13.08.44:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.11.18-13.08.44:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.11.18-13.08.44:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.11.18-13.08.44:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.11.18-13.08.44:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.11.18-13.08.44:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.11.18-13.08.44:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.11.18-13.08.44:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.11.18-13.08.44:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.11.18-13.08.44:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.11.18-13.08.44:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.11.18-13.08.44:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.11.18-13.08.44:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.11.18-13.08.44:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Door.uasset"
+[2015.11.18-13.08.44:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.11.18-13.08.44:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.11.18-13.08.44:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.11.18-13.08.44:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.11.18-13.08.44:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.11.18-13.08.44:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.11.18-13.08.44:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.11.18-13.08.44:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.11.18-13.08.44:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.11.18-13.08.44:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.11.18-13.08.44:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.11.18-13.08.44:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.11.18-13.08.44:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.11.18-13.08.44:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.11.18-13.08.44:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.11.18-13.08.44:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.11.18-13.08.44:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.11.18-13.08.44:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.11.18-13.08.44:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.11.18-13.08.44:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.11.18-13.08.44:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.11.18-13.08.44:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.11.18-13.08.44:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.11.18-13.08.44:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.11.18-13.08.44:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.11.18-13.08.44:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.11.18-13.08.44:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.11.18-13.08.44:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.11.18-13.08.44:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.11.18-13.08.44:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.11.18-13.08.44:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.11.18-13.08.44:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.11.18-13.08.44:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.11.18-13.08.44:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.11.18-13.08.44:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.11.18-13.08.44:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.11.18-13.08.44:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.11.18-13.08.44:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.11.18-13.08.44:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.11.18-13.08.44:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.11.18-13.08.44:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.11.18-13.08.44:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.11.18-13.08.44:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.11.18-13.08.44:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.11.18-13.08.44:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.11.18-13.08.44:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.11.18-13.08.44:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.11.18-13.08.44:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.11.18-13.08.44:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.11.18-13.08.44:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.11.18-13.08.45:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.11.18-13.08.45:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.11.18-13.08.45:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.11.18-13.08.45:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.11.18-13.08.45:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.11.18-13.08.45:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.11.18-13.08.45:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.11.18-13.08.45:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.11.18-13.08.45:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.11.18-13.08.45:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.11.18-13.08.45:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.11.18-13.08.45:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.11.18-13.08.45:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.11.18-13.08.45:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.11.18-13.08.45:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.11.18-13.08.45:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.11.18-13.08.45:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.11.18-13.08.45:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.11.18-13.08.45:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.11.18-13.08.45:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.11.18-13.08.45:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.11.18-13.08.45:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.11.18-13.08.45:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.11.18-13.08.45:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.11.18-13.08.45:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.11.18-13.08.45:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.11.18-13.08.45:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.11.18-13.08.45:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.11.18-13.08.45:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.11.18-13.08.45:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.11.18-13.08.45:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.11.18-13.08.45:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.11.18-13.08.45:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.11.18-13.08.45:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.11.18-13.08.45:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.11.18-13.08.45:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.11.18-13.08.45:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.11.18-13.08.45:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.11.18-13.08.46:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.11.18-13.08.46:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.11.18-13.08.46:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.11.18-13.08.46:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.11.18-13.08.46:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.11.18-13.08.46:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.11.18-13.08.46:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.11.18-13.08.46:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.11.18-13.08.46:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.11.18-13.08.46:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.11.18-13.08.46:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.11.18-13.08.46:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.11.18-13.08.46:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.11.18-13.08.46:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.11.18-13.08.46:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.11.18-13.08.46:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.11.18-13.08.46:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.11.18-13.08.47:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.11.18-13.08.47:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.11.18-13.08.47:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.11.18-13.08.47:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.11.18-13.08.47:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.11.18-13.08.47:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.11.18-13.08.47:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.11.18-13.08.47:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.11.18-13.08.47:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.11.18-13.08.47:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.11.18-13.08.47:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.11.18-13.08.47:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.11.18-13.08.47:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.11.18-13.08.47:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.11.18-13.08.48:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.11.18-13.08.48:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.11.18-13.08.48:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.11.18-13.08.48:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.11.18-13.08.48:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.11.18-13.08.48:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.11.18-13.08.48:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.11.18-13.08.48:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.11.18-13.08.48:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.11.18-13.08.48:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.11.18-13.08.48:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.11.18-13.08.48:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.11.18-13.08.48:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.11.18-13.08.48:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.11.18-13.08.48:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.11.18-13.08.48:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.11.18-13.08.48:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.11.18-13.08.48:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.11.18-13.08.48:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.11.18-13.08.48:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.11.18-13.08.48:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.11.18-13.08.48:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.11.18-13.08.48:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.11.18-13.08.48:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.11.18-13.08.48:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.11.18-13.08.48:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.11.18-13.08.48:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.11.18-13.08.48:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.11.18-13.08.48:655][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.11.18-13.08.48:804][  0]LogSavePackage: Save=11.746560ms
+[2015.11.18-13.08.48:804][  0]LogSavePackage: Moving '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Saved/Floor_400x400915ED89E46837E2B659294B96542B9DA.tmp' to '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.11.18-13.08.48:809][  0]LogSavePackage: Total save time: 20.259414ms
+[2015.11.18-13.08.48:809][  0]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.11.18-13.08.48:809][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.11.18-13.08.48:811][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.18-13.08.48:812][  0]LightingResults: New page: Lighting Build
+[2015.11.18-13.08.48:817][  0]MapCheck: New page: Map Check
+[2015.11.18-13.08.48:817][  0]LightingResults: New page: Lighting Build
+[2015.11.18-13.08.48:837][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085E64F76A0
+[2015.11.18-13.08.48:841][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:841][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:844][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:846][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:848][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:850][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:850][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:852][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.48:853][  0]LogLinker:Warning: Asset '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-13.08.49:437][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.11.18-13.08.49:458][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.11.18-13.08.50:207][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.18-13.08.50:648][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.18-13.08.50:755][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.18-13.08.50:853][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.18-13.08.50:924][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.18-13.08.50:945][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.11.18-13.08.51:185][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.18-13.08.51:341][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.18-13.08.51:369][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.18-13.08.51:393][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.11.18-13.08.51:405][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.11.18-13.08.51:717][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.11.18-13.08.51:862][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.11.18-13.08.51:898][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.11.18-13.08.51:932][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.11.18-13.08.51:972][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2015.11.18-13.08.51:978][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2015.11.18-13.08.51:981][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.11.18-13.08.52:007][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2015.11.18-13.08.52:013][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2015.11.18-13.08.52:182][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.18-13.08.52:204][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.18-13.08.52:204][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.18-13.08.52:264][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.048ms to complete.
+[2015.11.18-13.08.52:264][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.454
+[2015.11.18-13.08.52:368][  0]LogCollectionManager: Loaded 0 collections in 0.002769 seconds
+[2015.11.18-13.08.52:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Saved/Collections/' took 0.01s
+[2015.11.18-13.08.52:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Developers/RasmusHansson/Collections/' took 0.01s
+[2015.11.18-13.08.52:418][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/Collections/' took 0.01s
+[2015.11.18-13.08.52:418][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 1869 classes and 335 folders.
+[2015.11.18-13.08.52:424][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.18-13.08.52:433][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2015.11.18-13.08.52:491][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2015.11.18-13.08.52:497][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2015.11.18-13.08.52:524][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.18-13.08.52:530][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.18-13.08.52:552][  0]LogLoad: Full Startup: 24.46 seconds (BP compile: 0.10 seconds)
+[2015.11.18-13.08.52:946][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.18-13.08.53:078][  0]LogRenderer: Reallocating scene render targets to support 1072x568 (Frame:3).
+[2015.11.18-13.08.55:973][  9]LogAssetRegistry: Asset discovery search completed in 14.0368 seconds
+[2015.11.18-13.08.55:973][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2015.11.18-13.08.55:973][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2015.11.18-13.09.04:378][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.09.04:378][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-13.09.04:378][ 59]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2015, 3:09:04 PM)
+[2015.11.18-13.09.04:378][ 59]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.11.18-13.09.04:412][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033395s)
+[2015.11.18-13.09.04:413][ 59]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.18-13.09.04:413][ 59]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2015.11.18-13.09.04:413][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034505s)
+[2015.11.18-13.09.04:446][ 59]LogInit: XAudio2 using 'Högtalare (Cirrus Logic CS4208 (AB 93))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.11.18-13.09.04:452][ 59]LogInit: FAudioDevice initialized.
+[2015.11.18-13.09.04:517][ 59]LogWorld: Game class is 'UNREALPROJEKTGameMode'
+[2015.11.18-13.09.04:533][ 59]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.11.18-14.09.04
+[2015.11.18-13.09.04:533][ 59]LogActor:Warning: GameSession /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-13.09.04:533][ 59]LogActor:Warning: GameNetworkManager /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-13.09.04:534][ 59]LogWorld: Bringing up level for play took: 0.015127
+[2015.11.18-13.09.04:541][ 59]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.493
+[2015.11.18-13.09.04:541][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.09.39:984][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.09.40:030][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.09.40:069][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085D42AC900
+[2015.11.18-13.09.43:489][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2015.11.18-13.10.28:523][608]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.10.28:523][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-13.10.28:523][608]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 18, 2015, 3:10:28 PM)
+[2015.11.18-13.10.28:523][608]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.11.18-13.10.28:574][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050628s)
+[2015.11.18-13.10.28:575][608]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.18-13.10.28:575][608]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2015.11.18-13.10.28:575][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.051907s)
+[2015.11.18-13.10.28:640][608]LogInit: XAudio2 using 'Högtalare (Cirrus Logic CS4208 (AB 93))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2015.11.18-13.10.28:649][608]LogInit: FAudioDevice initialized.
+[2015.11.18-13.10.28:694][608]LogWorld: Game class is 'UNREALPROJEKTGameMode'
+[2015.11.18-13.10.28:703][608]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2015.11.18-14.10.28
+[2015.11.18-13.10.28:703][608]LogActor:Warning: GameSession /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-13.10.28:703][608]LogActor:Warning: GameNetworkManager /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-13.10.28:704][608]LogWorld: Bringing up level for play took: 0.009005
+[2015.11.18-13.10.28:705][608]PIE: Info Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.328
+[2015.11.18-13.10.28:705][608]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.10.45:497][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.10.45:721][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.11.18-13.10.45:757][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085D4BB8680
+[2015.11.18-13.11.19:659][611]LogSavePackage: Save=768.687805ms
+[2015.11.18-13.11.19:659][611]LogSavePackage: Moving '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Saved/ThirdPersonExampleMapF76726744E91AABBDC0B00A7D3BD5A56.tmp' to '../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2015.11.18-13.11.19:667][611]LogSavePackage: Total save time: 790.304430ms
+[2015.11.18-13.11.19:667][611]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Rasmus Hansson/Documents/GitHub/UNREALPROJEKT/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2015.11.18-13.11.21:169][655]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.18-13.11.21:559][656]Cmd: QUIT_EDITOR
+[2015.11.18-13.11.22:634][656]LogExit: Preparing to exit.
+[2015.11.18-13.11.23:485][656]LogExit: Editor shut down
+[2015.11.18-13.11.23:485][656]LogExit: Transaction tracking system shut down
+[2015.11.18-13.11.23:487][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085D5042F20
+[2015.11.18-13.11.23:490][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085F7A5F2E0
+[2015.11.18-13.11.23:491][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085D436BEC0
+[2015.11.18-13.11.23:491][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085D1F9EC00
+[2015.11.18-13.11.23:656][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000085D50439C0
+[2015.11.18-13.11.23:656][656]LogExit: Object subsystem successfully closed.
+[2015.11.18-13.11.23:676][656]LogD3D11RHI: Shutdown
+[2015.11.18-13.11.23:676][656]LogD3D11RHI: CleanupD3DDevice
+[2015.11.18-13.11.23:884][656]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.18-13.11.23:916][656]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.11.18-13.11.23:916][656]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.11.18-13.11.23:916][656]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.11.18-13.11.23:916][656]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.11.18-13.11.23:916][656]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.18-13.11.23:917][656]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.18-13.11.23:918][656]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.18-13.11.23:918][656]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.18-13.11.23:918][656]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.18-13.11.23:918][656]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.18-13.11.23:918][656]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.18-13.11.23:918][656]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.18-13.11.24:274][656]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.18-13.11.24:275][656]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.18-13.11.24:276][656]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.18-13.11.24:277][656]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.18-13.11.24:278][656]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.18-13.11.24:278][656]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.18-13.11.24:278][656]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.18-13.11.24:278][656]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.18-13.11.24:278][656]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.18-13.11.24:278][656]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.18-13.11.24:278][656]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.11.18-13.11.24:339][656]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.18-13.11.24:366][656]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.18-13.11.24:367][656]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.18-13.11.24:368][656]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.18-13.11.24:371][656]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.18-13.11.24:373][656]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.18-13.11.24:500][656]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.18-13.11.24:502][656]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.18-13.11.24:502][656]LogModuleManager: Shutting down and abandoning module UNREALPROJEKT (86)
+[2015.11.18-13.11.24:502][656]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.18-13.11.24:603][656]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.18-13.11.24:603][656]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.18-13.11.24:603][656]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.18-13.11.24:606][656]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.18-13.11.24:606][656]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.18-13.11.24:607][656]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.18-13.11.24:609][656]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.18-13.11.24:610][656]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.18-13.11.24:641][656]LogDerivedDataCache: Shutdown
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.18-13.11.24:641][656]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.18-13.11.28:647][656]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.18-13.11.28:647][656]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.18-13.11.28:647][656]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.18-13.11.28:647][656]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.18-13.11.28:647][656]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.18-13.11.28:647][656]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.18-13.11.28:649][656]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.18-13.11.28:649][656]LogExit: Exiting.
+[2015.11.18-13.11.28:670][656]Log file closed, 11/18/15 14:11:28
+>>>>>>> parent of 175d65a... Commit to revert
