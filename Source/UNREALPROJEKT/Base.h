@@ -27,9 +27,6 @@ public:
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
-	UPROPERTY(BlueprintReadWrite)
-		int32 base_health;
-
 	
 	
 };

@@ -13,9 +13,7 @@ ABase::ABase()
 	main_mesh = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("BaseMesh"));
 	collider = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("Collider"));
 	main_mesh->AttachTo(RootComponent);
-	collider->AttachTo(RootComponent);
-
-	base_health = 100;
+	collider->AttachTo(main_mesh);
 }
 
 // Called when the game starts or when spawned
