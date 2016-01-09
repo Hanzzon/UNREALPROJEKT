@@ -38,7 +38,7 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
 	ArnePOV = CreateDefaultSubobject<UCameraComponent>(TEXT("ArnePOV"));
-	ArnePOV->AttachTo(Mesh, USpringArmComponent::SocketName);
+	ArnePOV->AttachTo(GetMesh(), USpringArmComponent::SocketName);
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -66,8 +66,8 @@ void AUNREALPROJEKTCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
 	InputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	InputComponent->BindAxis("TurnRate", this, &AUNREALPROJEKTCharacter::TurnAtRate);
-	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	InputComponent->BindAxis("LookUpRate", this, &AUNREALPROJEKTCharacter::LookUpAtRate);
+	/*InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	InputComponent->BindAxis("LookUpRate", this, &AUNREALPROJEKTCharacter::LookUpAtRate);*/
 
 	// handle touch devices
 	InputComponent->BindTouch(IE_Pressed, this, &AUNREALPROJEKTCharacter::TouchStarted);
