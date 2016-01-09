@@ -66,8 +66,8 @@ void AUNREALPROJEKTCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
 	InputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	InputComponent->BindAxis("TurnRate", this, &AUNREALPROJEKTCharacter::TurnAtRate);
-	/*InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	InputComponent->BindAxis("LookUpRate", this, &AUNREALPROJEKTCharacter::LookUpAtRate);*/
+	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	InputComponent->BindAxis("LookUpRate", this, &AUNREALPROJEKTCharacter::LookUpAtRate);
 
 	// handle touch devices
 	InputComponent->BindTouch(IE_Pressed, this, &AUNREALPROJEKTCharacter::TouchStarted);
