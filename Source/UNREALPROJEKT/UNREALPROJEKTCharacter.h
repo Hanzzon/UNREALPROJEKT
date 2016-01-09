@@ -31,7 +31,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-	void CameraSwitch(float val);
+	void CameraSwitch();
+	void CameraRelease();
+
+	bool other_camera = false;
 
 protected:
 
