@@ -28,12 +28,19 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	GetCharacterMovement()->AirControl = 0.8f;
 	GetCharacterMovement()->MaxWalkSpeed = 1000;
 
-	// Create a camera boom (pulls in towards the player if there is a collision)
+	// Create a camera boom
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->AttachTo(RootComponent);
 	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 	CameraBoom->bDoCollisionTest = false;
+
+	// Create a camera boom
+	PovBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("PovBoom"));
+	PovBoom->AttachTo(RootComponent);
+	PovBoom->TargetArmLength = 0.f; // The camera follows at this distance behind the character	
+	PovBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
+	PovBoom->bDoCollisionTest = false;
 
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
@@ -41,7 +48,8 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
 	ArnePOV = CreateDefaultSubobject<UCameraComponent>(TEXT("ArnePOV"));
-	ArnePOV->AttachTo(GetMesh(), USpringArmComponent::SocketName);
+	ArnePOV->AttachTo(PovBoom, USpringArmComponent::SocketName);
+	ArnePOV->bUsePawnControlRotation = false;
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
@@ -141,11 +149,13 @@ void AUNREALPROJEKTCharacter::CameraSwitch(){
 	if (!other_camera)
 	{
 		FollowCamera->Deactivate();
+		bUseControllerRotationYaw = true;
 		ArnePOV->Activate();
 	}
 	else if (other_camera == true)
 	{
 		ArnePOV->Deactivate();
+		bUseControllerRotationYaw = false;
 		FollowCamera->Activate();
 	}
 }
