@@ -37,6 +37,7 @@ public:
 	void CameraSwitch();
 	void CameraRelease();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	bool other_camera = false;
 
 protected:
