@@ -24,13 +24,16 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
 	GetCharacterMovement()->JumpZVelocity = 900.f;
-	GetCharacterMovement()->AirControl = 0.2f;
+	GetCharacterMovement()->GravityScale = 1.2f;
+	GetCharacterMovement()->AirControl = 0.5f;
+	GetCharacterMovement()->MaxWalkSpeed = 1000;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->AttachTo(RootComponent);
 	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
+	CameraBoom->bDoCollisionTest = false;
 
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
@@ -44,6 +47,8 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
+
+	GetMesh()->GlobalAnimRateScale = 1.2f;
 }
 
 //////////////////////////////////////////////////////////////////////////
