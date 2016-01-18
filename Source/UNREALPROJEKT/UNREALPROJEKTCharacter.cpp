@@ -12,8 +12,8 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
 	// set our turn rates for input
-	BaseTurnRate = 45.f;
-	BaseLookUpRate = 45.f;
+	BaseTurnRate = 90.f;
+	BaseLookUpRate = 90.f;
 
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
@@ -25,7 +25,7 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
 	GetCharacterMovement()->JumpZVelocity = 900.f;
 	GetCharacterMovement()->GravityScale = 1.2f;
-	GetCharacterMovement()->AirControl = 0.5f;
+	GetCharacterMovement()->AirControl = 0.8f;
 	GetCharacterMovement()->MaxWalkSpeed = 1000;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
