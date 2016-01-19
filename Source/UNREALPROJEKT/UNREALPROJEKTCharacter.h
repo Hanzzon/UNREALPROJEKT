@@ -12,6 +12,9 @@ class AUNREALPROJEKTCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* PovBoom;
+
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
@@ -34,6 +37,7 @@ public:
 	void CameraSwitch();
 	void CameraRelease();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	bool other_camera = false;
 
 protected:
