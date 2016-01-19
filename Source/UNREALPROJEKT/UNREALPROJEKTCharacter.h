@@ -34,6 +34,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UFUNCTION(Category = Winning, BlueprintCallable)
+	void SuperJump();
+
 	void CameraSwitch();
 	void CameraRelease();
 
