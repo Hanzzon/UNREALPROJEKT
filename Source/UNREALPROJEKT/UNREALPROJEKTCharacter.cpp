@@ -169,3 +169,7 @@ void AUNREALPROJEKTCharacter::CameraRelease(){
 		other_camera = false;
 	}
 }
+void AUNREALPROJEKTCharacter::SuperJump(){
+	GetCharacterMovement()->JumpZVelocity = 9000.f;
+	Jump();
+}
