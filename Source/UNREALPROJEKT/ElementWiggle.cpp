@@ -33,13 +33,15 @@ void AElementWiggle::Tick( float DeltaTime )
 {
 	Super::Tick(DeltaTime);
 
-	if (GetActorLocation().X > EndLocation.X)
+	if (ArneOnOtherSide)
 	{
-		direction = -1;
+		direction *= -1;
+		ArneOnOtherSide = false;
 	}
-	if (GetActorLocation().X < StartingLocation.X)
+
+	if (GetActorLocation().X > EndLocation.X || GetActorLocation().X < StartingLocation.X)
 	{
-		direction = 1;
+		direction *= -1;
 	}
 
 	AddActorLocalOffset(FVector(direction * 5, 0, 0));

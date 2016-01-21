@@ -19,6 +19,9 @@ public:
 	UPROPERTY(Category = Offset, EditAnywhere)
 	float offsetX = 0;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Camera)
+	bool ArneOnOtherSide = false;
+
 	float direction = 1;
 
 	// Called when the game starts or when spawned
