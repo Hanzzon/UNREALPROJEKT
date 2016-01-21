@@ -17,7 +17,7 @@ public:
 	AElementWiggle();
 
 	UPROPERTY(Category = Offset, EditAnywhere)
-	float offsetX;
+	float offsetX = 1;
 
 	float direction = 1;
 
