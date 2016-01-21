@@ -57,7 +57,7 @@ void AElementWiggle::CalcPosDir()
 	else
 	{
 		direction = -1;
-		offsetX -= ((SurpassedSpans - 1) * MovmSpan.X - (int)offsetX / (int)MovmSpan.X);
+		offsetX -= ((SurpassedSpans - 1) * MovmSpan.X + 2*((int)offsetX % (int)MovmSpan.X));
 	}
 }
 
