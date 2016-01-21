@@ -11,9 +11,15 @@ AElementWiggle::AElementWiggle()
 	PrimaryActorTick.bCanEverTick = true;
 
 	main_mesh = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("ElementMesh"));
-	main_mesh->AttachTo(RootComponent);
+	main_mesh->AttachTo(RootComponent);	
+}
 
-	MovmSpan = FVector(1010, 0, 0);
+// Called when the game starts or when spawned
+void AElementWiggle::BeginPlay()
+{
+	Super::BeginPlay();
+
+	MovmSpan = FVector(1290, 0, 0);
 	CalcPosDir();
 
 	StartingLocation = GetActorLocation();
@@ -22,38 +28,26 @@ AElementWiggle::AElementWiggle()
 	EndLocation = StartingLocation + MovmSpan;
 }
 
-// Called when the game starts or when spawned
-void AElementWiggle::BeginPlay()
-{
-	Super::BeginPlay();
-}
-
 // Called every frame
 void AElementWiggle::Tick( float DeltaTime )
 {
+	Super::Tick(DeltaTime);
+
 	if (GetActorLocation().X > EndLocation.X)
-	{
-		direction = 1;
-	}
-	if (GetActorLocation().X < StartingLocation.X)
 	{
 		direction = -1;
 	}
+	if (GetActorLocation().X < StartingLocation.X)
+	{
+		direction = 1;
+	}
 
 	AddActorLocalOffset(FVector(direction * 5, 0, 0));
-
-	Super::Tick( DeltaTime );
 }
 void AElementWiggle::CalcPosDir()
 {
 	int SurpassedSpans;
-	if (offsetX != 0){
-		SurpassedSpans = (int)MovmSpan.X / (int)offsetX;
-	}
-	else
-	{
-		SurpassedSpans = 0;
-	}
+	SurpassedSpans = (int)offsetX / (int)MovmSpan.X;
 
 	if (SurpassedSpans % 2 == 0)
 	{
@@ -63,7 +57,7 @@ void AElementWiggle::CalcPosDir()
 	else
 	{
 		direction = -1;
-		offsetX -= ((SurpassedSpans - 1) * MovmSpan.X + (int)MovmSpan.X % (int)offsetX);
+		offsetX -= ((SurpassedSpans - 1) * MovmSpan.X - (int)offsetX / (int)MovmSpan.X);
 	}
 }
 
