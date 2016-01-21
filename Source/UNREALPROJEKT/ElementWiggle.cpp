@@ -46,7 +46,15 @@ void AElementWiggle::Tick( float DeltaTime )
 }
 void AElementWiggle::CalcPosDir()
 {
-	int SurpassedSpans = (int)MovmSpan.X / (int)offsetX;
+	int SurpassedSpans;
+	if (offsetX != 0){
+		SurpassedSpans = (int)MovmSpan.X / (int)offsetX;
+	}
+	else
+	{
+		SurpassedSpans = 0;
+	}
+
 	if (SurpassedSpans % 2 == 0)
 	{
 		direction = 1;
