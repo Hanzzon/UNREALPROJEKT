@@ -22,6 +22,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Direction)
 	bool ArneOnOtherSide = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Speed)
+	float speed = 8;
+
+	bool WhereHeWas = false;
+
 	float direction = 1;
 
 	// Called when the game starts or when spawned
