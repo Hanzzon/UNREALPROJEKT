@@ -16,11 +16,16 @@ public:
 	// Sets default values for this actor's properties
 	AElementWiggle();
 
-	UPROPERTY(Category = Offset, EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = OffsetX)
 	float offsetX = 0;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Camera)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Direction)
 	bool ArneOnOtherSide = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Speed)
+	float speed = 8;
+
+	bool WhereHeWas = false;
 
 	float direction = 1;
 

@@ -12,6 +12,8 @@ AElementWiggle::AElementWiggle()
 
 	main_mesh = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("ElementMesh"));
 	main_mesh->AttachTo(RootComponent);	
+
+	WhereHeWas = ArneOnOtherSide;
 }
 
 // Called when the game starts or when spawned
@@ -33,10 +35,10 @@ void AElementWiggle::Tick( float DeltaTime )
 {
 	Super::Tick(DeltaTime);
 
-	if (ArneOnOtherSide)
+	if (ArneOnOtherSide != WhereHeWas)
 	{
 		direction *= -1;
-		ArneOnOtherSide = false;
+		WhereHeWas = ArneOnOtherSide;
 	}
 
 	if (GetActorLocation().X > EndLocation.X || GetActorLocation().X < StartingLocation.X)
@@ -44,7 +46,7 @@ void AElementWiggle::Tick( float DeltaTime )
 		direction *= -1;
 	}
 
-	AddActorLocalOffset(FVector(direction * 5, 0, 0));
+	AddActorLocalOffset(FVector(direction * speed, 0, 0));
 }
 void AElementWiggle::CalcPosDir()
 {

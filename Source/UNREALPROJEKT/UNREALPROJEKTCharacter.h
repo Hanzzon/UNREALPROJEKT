@@ -43,6 +43,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	bool other_camera = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Camera)
+	bool ArneOnOtherSide = false;
+
 protected:
 
 	/** Called for forwards/backward input */
