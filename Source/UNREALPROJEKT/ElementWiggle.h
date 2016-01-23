@@ -27,6 +27,7 @@ public:
 
 	bool WhereHeWas = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = ImpulseDirection, meta = (AllowPrivateAccess = "true"))
 	float direction = 1;
 
 	// Called when the game starts or when spawned
