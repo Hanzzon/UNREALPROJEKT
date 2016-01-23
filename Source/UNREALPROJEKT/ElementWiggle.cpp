@@ -41,8 +41,14 @@ void AElementWiggle::Tick( float DeltaTime )
 		WhereHeWas = ArneOnOtherSide;
 	}
 
-	if (GetActorLocation().X > EndLocation.X || GetActorLocation().X < StartingLocation.X)
+	if (GetActorLocation().X > EndLocation.X)
 	{
+		SetActorLocation(FVector(EndLocation.X - 1, GetActorLocation().Y, GetActorLocation().Z));
+		direction *= -1;
+	}
+	if (GetActorLocation().X < StartingLocation.X)
+	{
+		SetActorLocation(FVector(StartingLocation.X + 1, GetActorLocation().Y, GetActorLocation().Z));
 		direction *= -1;
 	}
 

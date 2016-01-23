@@ -23,7 +23,7 @@ AUNREALPROJEKTCharacter::AUNREALPROJEKTCharacter()
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 900.f;
+	GetCharacterMovement()->JumpZVelocity = 750.f;
 	GetCharacterMovement()->GravityScale = 1.2f;
 	GetCharacterMovement()->AirControl = 0.8f;
 	GetCharacterMovement()->MaxWalkSpeed = 1000;
