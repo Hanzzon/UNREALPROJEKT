@@ -46,7 +46,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Camera)
 	bool ArneOnOtherSide = false;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Camera)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = PlatformVisibility)
 	bool PlatformsVisible = false;
 
 protected:
