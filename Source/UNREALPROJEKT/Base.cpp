@@ -11,9 +11,7 @@ ABase::ABase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	main_mesh = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("BaseMesh"));
-	collider = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("Collider"));
 	main_mesh->AttachTo(RootComponent);
-	collider->AttachTo(main_mesh);
 }
 
 // Called when the game starts or when spawned

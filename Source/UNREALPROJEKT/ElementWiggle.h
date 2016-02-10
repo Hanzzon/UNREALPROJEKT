@@ -23,7 +23,7 @@ public:
 	bool ArneOnOtherSide = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Speed)
-	float speed = 15;
+	float speed = 12;
 
 	bool WhereHeWas = false;
 

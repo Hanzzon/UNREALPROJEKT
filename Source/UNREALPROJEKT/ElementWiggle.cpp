@@ -11,8 +11,7 @@ AElementWiggle::AElementWiggle()
 	PrimaryActorTick.bCanEverTick = true;
 
 	main_mesh = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("ElementMesh"));
-	main_mesh->AttachTo(RootComponent);	
-
+	main_mesh->AttachTo(RootComponent);
 	WhereHeWas = ArneOnOtherSide;
 }
 
